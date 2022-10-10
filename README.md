@@ -1,7 +1,7 @@
 ## Badges
 
 [![Documentation Status](https://readthedocs.org/projects/asciiArt/badge/?version=latest)](https://asciiArt.readthedocs.io/en/latest/?badge=latest) [![github license badge](https://img.shields.io/github/license/bvreede/asciiArt)](https://github.com/bvreede/asciiArt)
-(https://github.com/bvreede/asciArt/actions/workflows/build.yml/badge.svg)](https://github.com/bvreede/asciiArt/actions/workflows/build.yml)
+[![Build Status](https://github.com/bvreede/asciiArt/actions/workflows/build.yml/badge.svg)](https://github.com/bvreede/asciiArt/actions/workflows/build.yml)
 
 ## How to use asciiart
 
