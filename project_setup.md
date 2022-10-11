@@ -65,45 +65,6 @@ help you decide which tool to use for packaging.
 
 - [Relevant section in the NLeSC guide](https://guide.esciencecenter.nl/#/best_practices/language_guides/python?id=coding-style-conventions) and [README.dev.md](README.dev.md).
 
-## Continuous code quality
-
-[Sonarcloud](https://sonarcloud.io/) is used to perform quality analysis and code coverage report
-
-- `sonar-project.properties` is the SonarCloud [configuration](https://docs.sonarqube.org/latest/analysis/analysis-parameters/) file
-- `.github/workflows/sonarcloud.yml` is the GitHub action workflow which performs the SonarCloud analysis
-
-## Package version number
-
-- We recommend using [semantic versioning](https://guide.esciencecenter.nl/#/best_practices/releases?id=semantic-versioning).
-- For convenience, the package version is stored in a single place: `ascii-art/.bumpversion.cfg`.
-- Don't forget to update the version number before [making a release](https://guide.esciencecenter.nl/#/best_practices/releases)!
-
-## Logging
-
-- We recommend using the logging module for getting useful information from your module (instead of using print).
-- The project is set up with a logging example.
-- [Relevant section in the guide](https://guide.esciencecenter.nl/#/best_practices/language_guides/python?id=logging)
-
-## CHANGELOG.md
-
-- Document changes to your software package
-- [Relevant section in the guide](https://guide.esciencecenter.nl/#/best_practices/releases?id=changelogmd)
-
-## CITATION.cff
-
-- To allow others to cite your software, add a `CITATION.cff` file
-- It only makes sense to do this once there is something to cite (e.g., a software release with a DOI).
-- Follow the [making software citable](https://guide.esciencecenter.nl/#/citable_software/making_software_citable) section in the guide.
-
-## CODE_OF_CONDUCT.md
-
-- Information about how to behave professionally
-- [Relevant section in the guide](https://guide.esciencecenter.nl/#/best_practices/documentation?id=code-of-conduct)
-
-## CONTRIBUTING.md
-
-- Information about how to contribute to this software package
-- [Relevant section in the guide](https://guide.esciencecenter.nl/#/best_practices/documentation?id=contribution-guidelines)
 
 ## MANIFEST.in
 

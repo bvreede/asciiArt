@@ -153,7 +153,7 @@ In a new terminal, without an activated virtual environment or an env directory:
 cd $(mktemp -d asciiart.XXXXXX)
 
 # fresh git clone ensures the release has the state of origin/main branch
-git clone https://github.com/<my-github-organization>/ascii-art .
+git clone https://github.com/bvreede/asciiart .
 
 # prepare a clean virtual environment and activate it
 python3 -m venv env
@@ -211,4 +211,4 @@ twine upload dist/*
 
 ### (3/3) GitHub
 
-Don't forget to also make a [release on GitHub](https://github.com/<my-github-organization>/ascii-art/releases/new). If your repository uses the GitHub-Zenodo integration this will also trigger Zenodo into making a snapshot of your repository and sticking a DOI on it.
+Don't forget to also make a [release on GitHub](https://github.com/<my-github-organization>/asciiart/releases/new). If your repository uses the GitHub-Zenodo integration this will also trigger Zenodo into making a snapshot of your repository and sticking a DOI on it.
